@@ -16,7 +16,7 @@ const getCurrentCounter = () => {
 };
 
 const countToTen = () => {
-  $(INPUT_SELECTOR).off('input');
+  // $(INPUT_SELECTOR).off('input');
   $(INPUT_SELECTOR).on('input', (evt) => {
     const current = getCurrentCounter();
     const ref = $(evt.target);
