@@ -15,7 +15,7 @@ const getCurrentCounter = () => {
   return counter;
 };
 
-const countToTen = () => {
+// const countToTen = () => {
   // $(INPUT_SELECTOR).off('input');
   $(INPUT_SELECTOR).on('input', (evt) => {
     const current = getCurrentCounter();
@@ -33,7 +33,7 @@ const countToTen = () => {
     }
     // showCounter(current);
   });
-};
+// };
 
 // const startToCount = () => {
 //   $(document).ready(() => {
